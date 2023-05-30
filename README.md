@@ -1,6 +1,8 @@
 # norrisEtAl
 All modeling files for Norris Et Al.
 
+- In order to plot the synergy correlations please run:
+
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
 
 This work is licensed under a
