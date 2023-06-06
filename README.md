@@ -1,5 +1,5 @@
 # norrisEtAl
-All modeling files for Norris Et Al.
+All modeling files for Norris et al.
 
 - BCL2 and Myc Simulations
   - Apoptosis_Bcl2.ipynb: run apoptosis model to simulate Bcl2 mutations and compare to WT
