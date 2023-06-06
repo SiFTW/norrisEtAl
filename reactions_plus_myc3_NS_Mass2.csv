@@ -1,0 +1,67 @@
+Substrate,Products,Kinetic Law,Modifiers,Parameters
+ERG,,Mass Action,,k1_16
+p27_cycA_Cdk2,p27,Mass Action Modifier,Cdc20,k1_30
+p27_cycE_Cdk2,cycE p27,Mass Action,,k1_25R 
+p27_cycA_Cdk2,cycA p27,Mass Action,,k1_25R 
+p27_cycE_Cdk2,p27,Mass Action Modifier V8,cycB cycA cycE p27_cycE_Cdk2,k1_8a k2_8 k3_yb k4_ye k5_j8
+cycE,,Mass Action Modifier V8,cycB cycA cycE p27_cycE_Cdk2,k1_8a k2_8 k3_yb k4_ye k5_j8
+p27,,Mass Action Modifier V6,cycA cycB cycE,k1_6a k2_6 k3_ha k4_hb k5_he
+p27_cycE_Cdk2,cycE,Mass Action Modifier V6,cycA cycB cycE,k1_6a k2_6 k3_ha k4_hb k5_he
+p27_cycD_Cdk2,cycD,Mass Action Modifier V6,cycA cycB cycE,k1_6a k2_6 k3_ha k4_hb k5_he
+p27_cycA_Cdk2,cycA,Mass Action Modifier V6,cycA cycB cycE,k1_6a k2_6 k3_ha k4_hb k5_he
+cycB,,Mass Action Modifier V2,Cdc20 Cdh1,k1_2aa k2_2a k3_2
+DRG,,Mass Action,,k1_18
+,Cdh1,Cdh1 exp equation,Cdc20 Cdh1,k1_3a k2_3 k3_J3
+Cdh1,,Cdh1 deg equation,cycA cycB cycE,k1_J4 k2_4 k3_ga k4_gb k5_ge
+PPX,,Mass Action,,k1_34
+,IEP,IEP exp equation,cycB IEP,k1_31 k2_j31
+IEP,,IEP deg equation,PPX,k1_32 k2_j32
+Cdc20t,,Mass Action,,k1_12
+,Cdc20,Cdc20 exp equation,Cdc20 Cdc20t IEP,k1_13 k2_j13
+Cdc20,,Cdc20 deg equation,,k1_14 k2_j14
+Cdc20,,Mass Action,,k1_12
+E2F_Rb,E2F HypoP_Rb,E2F_Rb diss equation,cycA cycB p27_cycD_Cdk2 cycD  cycE,k1_20 k2_la k3_lb k4_ld k5_le
+p27_cycD_Cdk2,p27,Mass Action,,k1_10
+pE2F_Rb,pE2F HypoP_Rb,E2F_Rb diss equation,cycA cycB p27_cycD_Cdk2 cycD  cycE,k1_20 k2_la k3_lb k4_ld k5_le
+,GM,Mass gain reaction switch Myc plus Mass2,r31switch cMyc Mass newSwitch,k1_GMprod k2_GMprod
+GM,,Mass Action,,k1_28
+,Mass,Mass gain reaction,GM ,k1_eps k2_mu
+,ERG,ERG exp reacion,DRG,k1_eps k2_15 k3_j15
+,Cdc20t,Exp basal plus mod,cycB,k1_eps k2_11a k3_11
+,cycA,CycA exp,Mass E2F newSwitch,k1_eps k2_29
+,PPX,Exp 2 param,,k1_eps k2_33
+,cycE,Exp basal plus mod,E2F,k1_eps k2_7a k3_7
+,cycD,Exp 2 param 1 mod,DRG,k1_eps k2_9
+cycD,,Mass Action,,k1_10
+,p27,Exp 2 param,,k1_eps k2_5
+,DRG,DRG exp reaction,DRG ERG,k1_eps k2_17 k3_j17 k4_17a
+,cycB,cycB exp reaction,cycB,k1_eps k2_1a k3_1 k4_j1
+Rb,HypoP_Rb,E2F_Rb diss equation,cycA cycB p27_cycD_Cdk2 cycD  cycE,k1_20 k2_la k3_lb k4_ld k5_le
+HypoP_Rb,Rb,Rb phos,cycB cycA cycE,k1_19 k2_19a k3_pp1t k4_21 k5_fb k6_fe
+E2F_Rb,E2F Rb,Mass Action,,k1_26r
+E2F,pE2F,E2F phos,cycA cycB,k1_23a k2_23
+pE2F,E2F,Mass Action,,k1_22
+E2F Rb,E2F_Rb,Mass Action Binding,,k1_26
+pE2F_Rb,pE2F Rb,Mass Action,,k1_26r
+cycE p27,p27_cycE_Cdk2,Mass Action Binding,,k1_25
+pE2F Rb,pE2F_Rb,Mass Action Binding,,k1_26
+pE2F_Rb,E2F_Rb,Mass Action,,k1_22
+E2F_Rb,pE2F_Rb,E2F phos,cycA cycB,k1_23a k2_23
+cycA p27,p27_cycA_Cdk2,Mass Action Binding,,k1_25
+cycD p27,p27_cycD_Cdk2,Mass Action Binding,,k1_24
+p27_cycD_Cdk2,cycD p27,Mass Action,,k1_24r
+cycA,,Mass Action Param Modifier,Cdc20,k1_30
+,cMyct,Constant Rate,,k1_myc
+cMyct,,Mass Action,,k1_myctDeg
+,cMyc,transcript tsl,cMyct,k1_mycTsl
+cMyc,,Mass Action,,k1_mycDeg
+,,No Rate,previousMass1,
+,,No Rate,previousMass2,
+,,No Rate,previousMass3,
+,,No Rate,previousMass4,
+,,No Rate,previousMass5,
+,,No Rate,previousMassTime1,
+,,No Rate,previousMassTime2,
+,,No Rate,previousMassTime3,
+,,No Rate,previousMassTime4,
+,,No Rate,previousMassTime5,
