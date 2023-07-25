@@ -1,7 +1,5 @@
 # Details of the scripts provided to perform analysis and generate plots for the paper: Quantifying mutational synergy using computational models predicts survival in haematoligical cancers
 
-All modeling files for Norris et al.
-
 - Cell cycle and apoptosis model simulations
   - Apoptosis_WTvsBcl2.ipynb: run apoptosis model to simulate Bcl2 mutations and compare to WT
   - ApoptosisDist.ipynb: parameter distribution to simulate heterogeneous cell populations
