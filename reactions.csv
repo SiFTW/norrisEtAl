@@ -1,0 +1,117 @@
+Substrate,Products,Kinetic Law,Modifiers,Parameters
+L R,L_R,Mass Action Binding,,k1_1
+L_R,L R,Mass Action,,k1_2
+L_R,DISC,Mass Action,,k1_3
+flip DISC,flip_DISC,Mass Action Binding,,k1_4
+flip_DISC,flip DISC,Mass Action,,k1_5
+pC8 DISC,DISC_pC8,Mass Action Binding,,k1_6
+DISC_pC8,pC8 DISC,Mass Action,,k1_7
+DISC_pC8,C8 DISC,Mass Action,,k1_8
+C8 BAR,BAR_C8,Mass Action Binding,,k1_9
+BAR_C8,C8 BAR,Mass Action,,k1_10
+pC3 C8,pC3_C8,Mass Action Binding,,k1_11
+pC3_C8,pC3 C8,Mass Action,,k1_12
+pC3_C8,C3 C8,Mass Action,,k1_13
+pC6 C3,pC6_C3,Mass Action Binding,,k1_14
+pC6_C3,pC6 C3,Mass Action,,k1_15
+pC6_C3,C6 C3,Mass Action,,k1_16
+pC8 C6,pC8_C6,Mass Action Binding,,k1_17
+pC8_C6,pC8 C6,Mass Action,,k1_18
+pC8_C6,C8 C6,Mass Action,,k1_19
+XIAP C3,XIAP_C3,Mass Action Binding,,k1_20
+XIAP_C3,XIAP C3,Mass Action,,k1_21
+XIAP_C3,XIAP C3_U,Mass Action,,k1_22
+PARP C3,PARP_C3,Mass Action Binding,,k1_23
+PARP_C3,PARP C3,Mass Action,,k1_24
+PARP_C3,CPARP C3,Mass Action,,k1_25
+Bid C8,Bid_C8,Mass Action Binding,,k1_26
+Bid_C8,Bid C8,Mass Action,,k1_27
+Bid_C8,tBid C8,Mass Action,,k1_28
+tBid Bcl2c,tBid_Bcl2c,Mass Action Binding,,k1_29
+tBid_Bcl2c,tBid Bcl2c,Mass Action,,k1_30
+Bax tBid,Bax_tBid,Mass Action Binding,,k1_31
+Bax_tBid,Bax tBid,Mass Action,,k1_32
+Bax_tBid,aBax tBid,Mass Action,,k1_33
+aBax,MBax,Mass Action,,k1_34
+MBax,aBax,Mass Action,,k1_35
+MBax Bcl2,MBax_Bcl2,Mass Action Binding,,k1_36
+MBax_Bcl2,MBax Bcl2,Mass Action,,k1_37
+MBax MBax,Bax2,Mass Action Binding,,k1_38
+Bax2,MBax MBax,Mass Action,,k1_39
+Bax2 Bcl2,MBax2_Bcl2,Mass Action Binding,,k1_40
+MBax2_Bcl2,Bax2 Bcl2,Mass Action,,k1_41
+Bax2 Bax2,Bax4,Mass Action Binding,,k1_42
+Bax4,Bax2 Bax2,Mass Action,,k1_43
+Bax4 Bcl2,MBax4_Bcl2,Mass Action Binding,,k1_44
+MBax4_Bcl2,Bax4 Bcl2,Mass Action,,k1_45
+Bax4 Mito,Bax4_Mito,Mass Action Binding,,k1_46
+Bax4_Mito,Bax4 Mito,Mass Action,,k1_47
+Bax4_Mito,AMito,Mass Action,,k1_48
+AMito mCytoC,AMito_mCytoC,Mass Action Binding,,k1_49
+AMito_mCytoC,AMito mCytoC,Mass Action,,k1_50
+AMito_mCytoC,AMito ACytoC,Mass Action,,k1_51
+AMito mSMac,AMito_mSMac,Mass Action Binding,,k1_52
+AMito_mSMac,AMito mSMac,Mass Action,,k1_53
+AMito_mSMac,ASmac AMito,Mass Action,,k1_54
+ACytoC,cCytoC,Mass Action,,k1_55
+cCytoC,ACytoC,Mass Action,,k1_56
+Apaf cCytoC,Apaf_cCytoC,Mass Action Binding,,k1_57
+Apaf_cCytoC,Apaf cCytoC,Mass Action,,k1_58
+Apaf_cCytoC,ApafStar cCytoC,Mass Action,,k1_59
+ApafStar Procasp9,Apop,Mass Action Binding,,k1_60
+Apop,ApafStar Procasp9,Mass Action,,k1_61
+Apop pC3,Apop_pC3,Mass Action Binding,,k1_62
+Apop_pC3,Apop pC3,Mass Action,,k1_63
+Apop_pC3,Apop C3,Mass Action,,k1_64
+ASmac,cSmac,Mass Action,,k1_65
+cSmac,ASmac,Mass Action,,k1_66
+Apop XIAP,Apop_XIAP,Mass Action Binding,,k1_67
+Apop_XIAP,Apop XIAP,Mass Action,,k1_68
+cSmac XIAP,cSmac_XIAP,Mass Action Binding,,k1_69
+cSmac_XIAP,cSmac XIAP,Mass Action,,k1_70
+,R,Exp 2 param,,k1_71 k2_eps
+R,,Mass Action,,k1_72
+,flip,Exp 2 param,,k1_73 k2_eps
+flip,,Mass Action,,k1_74
+flip_DISC,,Mass Action,,k1_75
+,pC8,Exp 2 param,,k1_76 k2_eps
+pC8,,Mass Action,,k1_77
+,BAR,Exp 2 param,,k1_78 k2_eps
+BAR,,Mass Action,,k1_79
+BAR_C8,,Mass Action,,k1_80
+,Bid,Exp 2 param,,k1_81 k2_eps
+Bid,,Mass Action,,k1_82
+,Bcl2c,Exp 2 param,,k1_83 k2_eps
+Bcl2c,,Mass Action,,k1_84
+tBid_Bcl2c,,Mass Action,,k1_85
+,Bax,Exp 2 param,,k1_86 k2_eps
+Bax,,Mass Action,,k1_87
+,Bcl2,Exp 2 param 1 mod,Bcl2t,k1_88 k2_eps
+Bcl2,,Mass Action,,k1_89
+MBax_Bcl2,,Mass Action,,k1_90
+MBax2_Bcl2,,Mass Action,,k1_91
+MBax4_Bcl2,,Mass Action,,k1_92
+AMito,Mito,Mass Action,,k1_93
+ApafStar,Apaf,Mass Action,,k1_94
+,XIAP,Exp 2 param,,k1_95 k2_eps
+XIAP,,Mass Action,,k1_96
+,mSMac,Exp 2 param,,k1_97 k2_eps
+mSMac,,Mass Action,,k1_98
+cSmac,,Mass Action,,k1_99
+cSmac_XIAP,,Mass Action,,k1_100
+,pC3,Exp 2 param,,k1_101 k2_eps
+pC3,,Mass Action,,k1_102
+C3_U,,Mass Action,,k1_103
+,pC6,Exp 2 param,,k1_104 k2_eps
+pC6,,Mass Action,,k1_105
+C6,,Mass Action,,k1_106
+Apop_XIAP,Apop,Mass Action,,k1_107
+,PARP,Exp 2 param,,k1_108 k2_eps
+PARP,,Mass Action,,k1_109
+CPARP,,Mass Action,,k1_110
+,L,Exp 2 param,,k1_111 k2_eps
+L,,Mass Action,,k1_112
+,mCytoC,Exp 2 param,,k1_113 k2_eps
+mCytoC,,Mass Action,,k1_114
+cCytoC,,Mass Action,,k1_115
+L,,Mass Action,,k1_116
