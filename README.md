@@ -1,4 +1,6 @@
-# norrisEtAl
+# Details of the scripts provided to perform analysis and generate plots for the paper
+# Quantifying mutational synergy using computational models predicts survival in haematoligical cancers
+
 All modeling files for Norris et al.
 
 - Cell cycle and apoptosis model simulations
