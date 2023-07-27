@@ -1,0 +1,7 @@
+Rate Law Name, Rate law definition
+Mass Action,[s1] * {k1}
+Mass Action Modifier,[s1] * [mod1]
+Mass Action Param Modifier,{k1} * [s1] * [mod1]
+Exp 2 param,{k1} * {k2}
+Exp 2 param 1 mod,{k1} * {k2} * [mod1]
+Mass Action Binding,[s1] * [s2] * {k1}
