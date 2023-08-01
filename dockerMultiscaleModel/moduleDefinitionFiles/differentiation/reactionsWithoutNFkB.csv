@@ -1,0 +1,11 @@
+Substrate,Products,Kinetic Law, Modifiers, Parameters
+,IRF4,Three act no rep,Blimp1 cRel RelA,k1_s_IRF4 k2_div_IRF4 k3_x_IRF4 k4_n_IRF4 k5_a_IRF4 k6_e_IRF4NotSampled k7_divcRel_IRF4 k8_kxcRel_IRF4 k9_divRelA_IRF4 k10_kxRelA_IRF4
+IRF4,,Mass Action,,k1_IRF4Deg
+,Blimp1,Two act one rep,IRF4 RelA Bcl6,k1_s_Blimp1 k2_div_Blimp1 k3_x_Blimp1 k4_n_Blimp1 k5_a_Blimp1 k6_e_Blimp1 k7_divcRel_Blimp1 k8_acRel_Blimp1 k9_kr_Blimp1 k10_nr_Blimp1
+Blimp1,,Mass Action,,k1_Blimp1Deg
+,Pax5,Const Exp one rep,Blimp1,k1_e_pax5 k2_kr_pax5 k3_nr_pax5
+Pax5,,Mass Action,,k1_Pax5Deg
+,Bcl6,Two act two rep,Pax5 cRel IRF4 Blimp1,k1_s_Bcl6 k2_kx_bcl6 k3_n_bcl6 k4_ka_bcl6 k5_s2_Bcl6 k6_kx_Bcl6 k7_n2_Bcl6 k8_kr_bcl6 k9_nr_bcl6
+Bcl6,,Mass Action,,k1_Bcl6Deg
+,AID,AID activation,IRF4 Pax5 cRel RelA,k1_s1_AID k2_kx1_AID k3_n1_AID k4_ka1_AID k5_kx2_AID k6_kx3_AID
+AID,,Mass Action,,k1_AIDDeg

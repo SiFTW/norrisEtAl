@@ -1,0 +1,22 @@
+Substrate,Products,Kinetic Law,Modifiers,Parameters
+,cMyct,nfkb dep exp,RelAnp50n cRelnp50n,k1_mycExp k2_mycExp k3_mycExp k4_mycExp k5_mycExp k6_mycExp k7_mycExp k8_mycExp k9_mycExp
+cMyct,,Mass Action,,k1_myctDeg
+,Bcl2t,nfkb dep exp basal,RelAnp50n cRelnp50n,k1_bcl2Exp k2_bcl2Exp k3_bcl2Exp k4_bcl2Exp k5_bcl2Exp k6_bcl2Exp k7_bcl2Exp k8_bcl2Exp k9_bcl2Exp
+Bcl2t,,Mass Action,,k1_bcl2tDeg
+,Cycdt,nfkb dep exp,RelAnp50n cRelnp50n,k1_cycDExp k2_cycDExp k3_cycDExp k4_cycDExp k5_cycDExp k6_cycDExp k7_cycDExp k8_cycDExp k9_cycDExp
+Cycdt,,Mass Action,,k1_cycDtDeg
+,tcRel,Hill Promotion Induction NFkB four one rep,"delay(RelAnp50n,720) delay(RelAnp52n,720) delay(cRelnp50n,720) delay(cRelnp52n,720) delay(Blimp1,720)",basal_cRelSynth k1_cRelSynth Kd1_cRelSynth k2_cRelSynth Kd2_cRelSynth k3_cRelSynth Kd3_cRelSynth k4_cRelSynth Kd4_cRelSynth kh_cRelSynth scale_ind kr1_blimpCrel nr1_blimpCrel
+,cMyc,transcript tsl,cMyct,k1_mycTsl
+cMyc,,Mass Action,,k1_mycDeg
+,GM,Mass gain reaction switch Myc,r31switch cMyc Mass,k1_GMprod k2_GMprod
+,cycD,transcript tsl,Cycdt,k1_CycDt
+,Mass,Mass gain reaction,GM,k1_eps k2_muLink
+,cRel,remove,,
+,RelA,remove,,
+RelA,,Mass Action,,k1_monDeg
+cRel,,Mass Action,,k1_monDeg
+,IRF4,Three act no rep,Blimp1 cRelnp50n RelAnp50n,k1_s_IRF4 k2_div_IRF4 k3_x_IRF4 k4_n_IRF4 k5_a_IRF4 k6_e_IRF4 k7_divcRel_IRF4 k8_kxcRel_IRF4 k9_divRelA_IRF4 k10_kxRelA_IRF4
+,,no rate,fateSwitch,
+,L,Exp 2 param,,k1_111 k2_eps
+L,,Mass Action,,k1_112
+Mass,,Mass Action,,k1_massDeg
