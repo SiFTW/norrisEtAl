@@ -2,7 +2,7 @@
 
 Panels B, C and E were generated using data from simulations using the multi-scale model. 
 
-This dockerMultiscaleModel folder contains a Dockerfile and a link to instructions to load a docker image that includes eveything required to run the multiscale model.
+The dockerMultiscaleModel folder contains a Dockerfile and a link to instructions to load a docker image that includes eveything required to run the multiscale model.
 
 Further instructions for running the model are included as comments in sections of the jupyter notebook file runMultiscaleModel.ipynb
 
