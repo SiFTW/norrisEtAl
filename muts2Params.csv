@@ -20,7 +20,7 @@ FUSION,BCL6-HNRNPC_Fusion,BCL6,k1_s_Bcl6-differentiation,1.5
 FUSION,BCL6-CD74_Fusion,BCL6,k1_s_Bcl6-differentiation,1.5
 FUSION,BCL6-IGLL5_Fusion,BCL6,k1_s_Bcl6-differentiation,1.5
 FUSION,BCL6-PKM2_Fusion,BCL6,k1_s_Bcl6-differentiation,1.5
-FUSION,MYC-ACTB_Fusion,MYC,k1_mycExp-linking,1.5
+FUSION,MYC-ACTB_Fusion,MYC,k1_mycTsl-linking,1.5
 INFRAME,Y197_E198del,CD79B,IKK,1.5
 MISSENSE,P166A,BAD,0,1
 MISSENSE,F38L,BCL10,0,1
