@@ -1,4 +1,4 @@
-## Details of the scripts provided to perform analysis and generate plots for the paper: Quantifying mutational synergy using computational models predicts survival in haematoligical cancers
+## Details of the scripts provided to perform analysis and generate plots for the paper: Patient-specific computational models predict prognosis in B cell lymphoma by quantifying pro-proliferative and anti-apoptotic signatures from genetic sequencing data.
 
 - Cell cycle and apoptosis model simulations
   - Apoptosis_WTvsBcl2.ipynb: run apoptosis model to simulate Bcl2 mutations and compare to WT
