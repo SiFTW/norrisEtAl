@@ -15,6 +15,8 @@
 - Plotting mutational synergy correlations
   - run: [patientData/scatter_plots_syn_res_updated_synergyCalcs.ipynb](patientData/scatter_plots_syn_res_updated_synergyCalcs.ipynb)
   - Notebook can be viewed without running [here](https://nbviewer.org/github/SiFTW/norrisEtAl/blob/main/patientData/scatter_plots_syn_res_updated_synergyCalcs.ipynb). Note some of the rendering might not be correctly formated by the notebook viewer.
+ 
+The folder for each individual figure contains a readme file explaining how each panel in the figure was generated along with scripts in .ipynb format and any other files required.
 
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
