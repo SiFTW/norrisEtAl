@@ -9,12 +9,11 @@
   - Cell_cycle_ParamScan.ipynb: parameter scan - modify one parameter in the cell cycle model at a time, run simulation, save output and plot
   - PD_CellCycle_param_analysis: analyse the value of parameters in different groups of cells from the parameter distribution - example given is p27 in dividing cells vs arrested cells 
 - Running single or multiple (in parallel) patient simulations
-  - runMultiscaleModel.ipynb 
+  - runMM_auto_allCohorts.ipynb 
 - Calculating cell numbers for patients
   - calculateCellNumbersForAllConditions.ipynb 
-- Plotting mutational synergy correlations
-  - run: [patientData/scatter_plots_syn_res_updated_synergyCalcs.ipynb](patientData/scatter_plots_syn_res_updated_synergyCalcs.ipynb)
-  - Notebook can be viewed without running [here](https://nbviewer.org/github/SiFTW/norrisEtAl/blob/main/patientData/scatter_plots_syn_res_updated_synergyCalcs.ipynb). Note some of the rendering might not be correctly formated by the notebook viewer.
+- Kaplan-Meier plots
+  - generateKMs.ipynb
  
 The folder for each individual figure contains a readme file explaining how each panel in the figure was generated along with scripts in .ipynb format and any other files required.
 
