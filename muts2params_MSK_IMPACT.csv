@@ -1,0 +1,30 @@
+Gene,Param,Amount,Column4,Annotation,Effect,Column7,Comment/Ref
+BCL10,IKK,1.5,,Likely Oncogenic,Likely Loss-of-function,,https://pubmed.ncbi.nlm.nih.gov/14695475/
+BCL10,IKK,1.5,,Likely Oncogenic,Likely Gain-of-function,,
+BCL2,k1_bcl2Exp-linking,1.5,,Likely Oncogenic,Gain-of-function,,
+BCL2,k1_bcl2Exp-linking,1.5,,Likely Oncogenic,Likely Gain-of-function,,
+BCL2,k1_bcl2Exp-linking,1.5,,Likely Oncogenic,Unknown,,
+CARD11,IKK,0.0,,Likely Oncogenic,Unknown,,
+CARD11,IKK,1.5,,Likely Oncogenic,Gain-of-function,,
+CARD11,IKK,1.5,,Likely Oncogenic,Likely Gain-of-function,,
+CARD11,IKK,1.5,,Oncogenic,Gain-of-function,,
+CARD11,IKK,0.0,,Resistance,Inconclusive,,
+CASP8,k1_76-apoptosis,0.5,,Likely Oncogenic,Likely Loss-of-function,,
+CD79B,IKK,1.5,,Likely Oncogenic,Likely Gain-of-function,,This is BCR
+CD79B,IKK,1.5,,Oncogenic,Gain-of-function,,This is BCR
+CDKN1B,k2_5-cellCycle,0.5,,Likely Oncogenic,Likely Loss-of-function,,this is p27
+CDKN2A,k1_26-cellCycle,0.5,,Likely Oncogenic,Likely Loss-of-function,,
+CDKN2A,k1_26-cellCycle,0.5,,Oncogenic,Loss-of-function,,
+IRF8,k1_s_IRF4-linking,0.5,,Likely Oncogenic,Likely Loss-of-function,,IRF4 and 8 mutually promote each other
+MYC,k1_mycTsl-linking	,1.5,,Likely Oncogenic,Likely Gain-of-function,,
+MYC,k1_mycTsl-linking	,1.5,,Likely Oncogenic,Unknown,,
+NFKBIA,kmax_IkBaSynth-NFkB,0.5,,Likely Oncogenic,Likely Loss-of-function,,
+PAX5,k1_e_pax5-differentiation,0.5,,Likely Oncogenic,Likely Loss-of-function,,master regulator of B cell development but LOF impact unclear
+PIM1,IKK,1.5,,Likely Oncogenic,Likely Gain-of-function,,PIM1 is an upstream regulator of NF-κB signaling https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5126268/
+PRDM1,k1_s_Blimp1,0.5,,Likely Oncogenic,Likely Loss-of-function,,
+RB1,k1_26-cellCycle,0.5,,Likely Oncogenic,Likely Loss-of-function,,
+TNFAIP3,IKK,1.5,,Likely Oncogenic,Likely Loss-of-function,,"This is A20, an IKK inhibitor"
+TNFRSF14,nik_deg_mod-nfkb,0.5,,Likely Oncogenic,Likely Loss-of-function,,"TNFRSF14 induces NIK, loss of this should decrease NIK. The NIK parameter"
+TP53,k1_bcl2Exp-linking,1.5,,Likely Oncogenic,Likely Loss-of-function,,p53 maps to Bcl2
+TP53,k1_bcl2Exp-linking,1.5,,Likely Oncogenic,Loss-of-function,,p53 maps to Bcl2
+TP53,k1_bcl2Exp-linking,1.5,,Oncogenic,Loss-of-function,,p53 maps to Bcl2
