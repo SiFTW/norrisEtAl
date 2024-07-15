@@ -1,0 +1,17 @@
+Rate Law Name, Rate law definition
+Mass Action Binding, [s1] * [s2] * {k1}
+Hill Promotion, ({vmax} * [mod1])/({Km} + [mod1])
+Mass Action, [s1] * {k1}
+Constant Rate, {k1}
+Old Hill Promotion Induction two,{k1} * (1 + ({k1} * (([mod1]/{Kd1}) ^ {kh}) + {k2} * ([mod2]/{Kd2}) ^ {kh} ))/(1+([mod1]/{Kd1})  ^ {kh} + ([mod2]/{Kd2}) ^ {kh} )
+Old Hill Promotion Induction four,{k1} * (1 + ({k1} * ([mod1]/{Kd1}) ^ {kh} + {k2} * ([mod2]/{Kd2}) ^ {kh} + {k3} * ([mod3]/{Kd3}) ^ {kh}  + {k4} * ([mod4]/{Kd4}) ^ {kh} ))/(1+([mod1]/{Kd1})  ^ {kh} + ([mod2]/{Kd2})  ^ {kh} +  ([mod3]/{Kd3})  ^ {kh} + ([mod4]/{Kd4})  ^ {kh} )
+Mass Action IKK,{k1} * [s1] * {ikk1}
+Mass Action IKK scaling,{k1} * [s1] * {ikk1} * {k2}
+MM Degradation,({vmax} * [s1] * [mod1])/({Km} + [s1])
+Hill Promotion Induction IkB one,{kmax}*((1+(({k1}* ([mod1] / {Kd1}).^{kh})))/ (1+(([mod1] /{Kd1}).^{kh})
+Hill Promotion Induction IkB two,{kmax}*((1+(({k1}* ([mod1] / {Kd1}).^{kh})+({k2}* ([mod2]/{Kd2}).^{kh})))/ (1+(([mod1] /{Kd1}).^{kh})+([mod2]/{Kd2}).^{kh}))
+Hill Promotion Induction IkB four,{kmax}*((1+(({k1}* ([mod1] / {Kd1}).^{kh})+({k2}* ([mod2]/{Kd2}).^{kh})+({k3}* ([mod3]/{Kd3}).^{kh})+({k4}* ([mod4]/{Kd4}).^{kh})))/ (1+(([mod1] /{Kd1}).^{kh}+([mod2]/{Kd2}).^{kh}+([mod3]/{Kd3}).^{kh}+([mod4]/{Kd4}).^{kh})))
+Mass Action NIK,{k1} * [s1] * {nik}
+Hill Promotion Induction NFkB one,{basal} + ((({k1} * (([mod1]/ {Kd1}).^{kh})))/ (1+(({k1} * (([mod1]/{Kd1}).^{kh}))))./{scale}
+Hill Promotion Induction NfkB two,{basal} + ((({k1} * (([mod1]/ {Kd1}).^{kh}))+({k2} * (([mod2]/{Kd2}).^{kh}))+({k3} * (([mod3]/ {Kd3}).^{kh})))/ (1+(({k1} * (([mod1]/{Kd1}).^{kh}))+({k2} * (([mod2]/ {Kd2}).^{kh}))+({k3} * (([mod3]/{Kd3}).^{kh}))))./{scale}
+Hill Promotion Induction NFkB four,{basal} + ((({k1} * (([mod1]/ {Kd1}).^{kh}))+({k2} * (([mod2]/{Kd2}).^{kh}))+({k3} * (([mod3]/ {Kd3}).^{kh}))+({k4} * (([mod4]/ {Kd4}).^{kh})))/ (1+(({k1} * (([mod1]/{Kd1}).^{kh}))+({k2} * (([mod2]/ {Kd2}).^{kh}))+({k3} * (([mod3]/{Kd3}).^{kh}))+({k4} * (([mod4]/ {Kd4}).^{kh})))))./{scale}
